@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Socialmedia from './components/Socialmedia';
+
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Socialmedia />
     </div>
+
   );
 }
 

@@ -1,0 +1,26 @@
+.Social_media_postion {
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+}
+
+.social_media_list
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    padding: 4px;   padding: 4px;
+    border-radius: 15px;
+}
+
+.social_media_list:hover {
+    box-shadow: rgba(226, 226, 228, 0.2) 0px 7px 29px 0px;
+}
+
+.social_media_list img {
+    width: 20px;
+}
+
+.Social_media, .social_media_list h6 {
+    font-size: 12px;
+}
