@@ -9,9 +9,6 @@ function Socialmedia() {
         <div className="social_media_list">
         <img src={Github} />
         <h6> Find Me</h6>
-        {/* <div className="social_media_list">
-            <h6> Find Me</h6>
-        </div> */}
       </div>
     </div>
    </a>
