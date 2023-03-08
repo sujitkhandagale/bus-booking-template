@@ -1,17 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Socialmedia from './components/Socialmedia';
+import "./App.css";
+import Socialmedia from "./components/Socialmedia";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       Bus Booking Project Soon
-      </header>
+    <div>
       <Socialmedia />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
     </div>
-
   );
 }
 

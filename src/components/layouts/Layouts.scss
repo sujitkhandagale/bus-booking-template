@@ -1,0 +1,62 @@
+$base-color: red;
+
+.navbar {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 10px 60px 10px 60px;
+  background-color: #1c3738;
+
+
+  .nav-logo {
+    height: auto;
+    width: 100px;
+
+  }
+
+  .nav-menu {
+    float: right;
+    text-align: right;
+    justify-content: right;
+
+    ul li {
+      padding: 10px;
+      color: #f8fcfb;
+    }
+  }
+}
+
+.heading-news {
+    padding: 5px 60px 5px 60px;
+    background-color: #DBE9EE;
+}
+
+.tool-bar {
+    padding: 5px 60px 5px 60px;
+    background-color: #1c3738;
+    color: white;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    .nav-logo {
+      margin: 0 0 0 20px;
+    }
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    padding: 0 20px 0 0;
+    text-align: right;
+    display: block;
+
+    .svg-inline--fa {
+      color: rgb(248, 248, 248);
+    }
+  }
+}
