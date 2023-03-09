@@ -154,7 +154,9 @@ top: 15%;
   .footer_bottom_poster {
     display: grid;
     grid-template-columns: (1fr);
-    padding: 5px 60px 5px 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
     background-color: #1c3738;
     color: white;
 
@@ -181,7 +183,7 @@ top: 15%;
       font-size: 23px;
     }
     .Newsletter_heading {
-      padding-top: 50px;
+      padding-top: 10px;
     }
   }
 
@@ -190,3 +192,6 @@ top: 15%;
   }
 
 }
+
+
+
