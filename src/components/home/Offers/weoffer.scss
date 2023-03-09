@@ -67,6 +67,7 @@
 }
 
 // tablet responsive
+
 @media only screen and (max-width:768px) {
     .we_offer {
         display: grid;
@@ -105,19 +106,19 @@
             justify-content: center;
             text-align: center;
             height: auto;
-            width: 170px;
+            width: 140px;
             background-color: #1c3738;
 
             .offer_description {
               padding-top: 20px;
               h5 {
-                  font-size: 20px;
+                  font-size: 16px;
                   color: white;
                   padding-bottom: 0;
               }
               p {
                   padding-top: 10px;
-                  font-size: 16px;
+                  font-size: 14px;
                   color: white;
               }
             }

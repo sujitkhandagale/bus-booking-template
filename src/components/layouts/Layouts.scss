@@ -127,7 +127,8 @@ top: 15%;
   }
 
   .footer_sections {
-    padding: 40px 60px 20px 60px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
     display: grid;
     grid-template-columns: (1fr);
     color: white;
@@ -135,7 +136,7 @@ top: 15%;
     height: auto;
 
     .footer_heading {
-      padding: 0 0 90px 0;
+      padding: 0 0 10px 0;
       h5 {
 
         font-size: 20px;
