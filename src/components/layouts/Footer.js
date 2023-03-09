@@ -7,9 +7,12 @@ import PaymentPaytm from '../../assets/payment_gateway/paytm.png'
 import PaymentPayu from '../../assets/payment_gateway/payu.png'
 import { Button } from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 function Footer() {
+  const notify = () =>  toast.success("Newsletter Subscribe");
   return (
     <div>
       <AppStore />
@@ -120,14 +123,19 @@ function Footer() {
          <Link><i class="fa-brands fa-youtube font-20"></i> &nbsp;</Link>
          <Link><i class="fa-brands fa-instagram font-20"></i> &nbsp;</Link>
 
-            <label className=" Newsletter_heading block mb-2">News Letter</label>
+
+
+          <label className=" Newsletter_heading block mb-2">News Letter</label>
             <input
               type="email"
               className="Filter_input"
               placeholder="Email Id"
               required
             />
-            <button type="submit" className="Newsletter_button">Submit</button>
+           <button className="Newsletter_button" onClick={notify}>Notify!</button>
+        <ToastContainer />
+
+
           </div>
         </div>
         <div className="footer_bottom_poster">
