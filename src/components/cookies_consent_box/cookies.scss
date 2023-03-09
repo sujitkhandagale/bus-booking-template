@@ -1,0 +1,25 @@
+
+.cookies-box {
+    display: none;
+    position: fixed;
+    bottom: 2%;
+    left: 1%;
+    width: 300px;
+    height: auto;
+    background-color: #dbe9ee;
+    border: 1px solid black;
+    z-index: 999;
+    padding: 20px;
+
+    .cookies-button {
+        text-align: right;
+        padding: 10px;
+        background-color:
+        #1c3738;
+        color: white;
+        position: relative;
+        left: 50%;
+    }
+
+
+}

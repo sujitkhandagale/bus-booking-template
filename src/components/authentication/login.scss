@@ -1,0 +1,21 @@
+.Sign_in_box {
+    padding: 40px;
+    position: fixed;
+    top: 10%;
+    right: 50%;
+    translate: (50% 50%);
+    height: 400px;
+    width: 400px;
+    background-color: #7d9aa4ad;
+}
+
+.back_to_home {
+    position: fixed;
+   bottom: 2%;
+   left: 2%;
+   h3 {
+    font-size: 20px !important;
+
+    padding: 5px;
+   }
+}

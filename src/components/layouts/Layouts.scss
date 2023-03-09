@@ -2,7 +2,7 @@ $base-color: red;
 
 .navbar {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 2fr;
   padding: 10px 60px 10px 60px;
   background-color: #1c3738;
 
@@ -26,12 +26,12 @@ $base-color: red;
 }
 
 .heading-news {
-    padding: 5px 60px 5px 60px;
+  padding: 10px 20px 10px 20px;;
     background-color: #DBE9EE;
 }
 
 .tool-bar {
-    padding: 5px 60px 5px 60px;
+  padding: 10px 20px 10px 20px;;
     background-color: #1c3738;
     color: white;
 }
@@ -40,10 +40,72 @@ $base-color: red;
     display: none;
 }
 
+footer {
+  background-color: black;
+}
+
+.footer_sections {
+  padding: 40px 60px 20px 60px;
+  display: grid;
+  grid-template-columns: (1fr 2fr 2fr 2fr 2fr);
+  color: white;
+  gap: 30px;
+
+  .footer_heading {
+    padding: 0 0 90px 0;
+    h5 {
+
+      font-size: 20px;
+    }
+  }
+  .Newsletter_button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(24, 214, 88, 0.651);
+    width: 100%;
+
+  }
+}
+
+.footer_bottom_poster {
+  display: grid;
+  grid-template-columns: (1fr 1fr);
+  padding: 5px 60px 5px 60px;
+  background-color: #1c3738;
+  color: white;
+
+  .float-right {
+    justify-content: right;
+  }
+}
+
+.Payment_gateway {
+  display: flex;
+ flex-direction: row;
+ justify-content: end;
+
+ img {
+  position: relative;
+  top: 30%;
+  width: auto;
+  height: 15px;
+ }
+}
+
+.footer_newsletter {
+  .font-20 {
+    font-size: 23px;
+  }
+  .Newsletter_heading {
+    padding-top: 50px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .navbar {
+   padding: 10px 20px 10px 20px;;
     .nav-logo {
-      margin: 0 0 0 20px;
+
     }
   }
   .nav-menu {
@@ -51,7 +113,8 @@ $base-color: red;
   }
 
   .mobile-menu-icon {
-    padding: 0 20px 0 0;
+position: relative;
+top: 15%;
     text-align: right;
     display: block;
 
@@ -59,4 +122,70 @@ $base-color: red;
       color: rgb(248, 248, 248);
     }
   }
+  footer {
+    background-color: black;
+  }
+
+  .footer_sections {
+    padding: 40px 60px 20px 60px;
+    display: grid;
+    grid-template-columns: (1fr);
+    color: white;
+    gap: 30px;
+    height: auto;
+
+    .footer_heading {
+      padding: 0 0 90px 0;
+      h5 {
+
+        font-size: 20px;
+      }
+    }
+    .Newsletter_button {
+      padding: 10px;
+      margin-top: 10px;
+      background-color: rgba(24, 214, 88, 0.651);
+      width: 100%;
+
+    }
+  }
+
+  .footer_bottom_poster {
+    display: grid;
+    grid-template-columns: (1fr);
+    padding: 5px 60px 5px 60px;
+    background-color: #1c3738;
+    color: white;
+
+    .float-right {
+      justify-content: right;
+    }
+  }
+
+  .Payment_gateway {
+    display: flex;
+   flex-direction: row;
+   justify-content: end;
+
+   img {
+    position: relative;
+    top: 30%;
+    width: auto;
+    height: 15px;
+   }
+  }
+
+  .footer_newsletter {
+    .font-20 {
+      font-size: 23px;
+    }
+    .Newsletter_heading {
+      padding-top: 50px;
+    }
+  }
+
+  .location_map {
+    display: none;
+  }
+
 }
