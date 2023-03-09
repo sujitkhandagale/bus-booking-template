@@ -132,7 +132,7 @@ function Footer() {
               placeholder="Email Id"
               required
             />
-           <button className="Newsletter_button" onClick={notify}>Notify!</button>
+           <button className="Newsletter_button" onClick={notify}>Submit</button>
         <ToastContainer />
 
 
