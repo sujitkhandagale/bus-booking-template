@@ -8,8 +8,9 @@
     display: grid;
     padding: 40px;
     grid-template-columns: (1fr 3fr);
-    height: 200px;
-    width: 100%;
+    height: auto;
+    width: auto;
+    min-height: 200px;
     gap: 1px;
     background-color: #1c3738;
     color: white;
@@ -49,8 +50,7 @@ h3 {
           display: grid;
           padding: 20px;
           grid-template-columns: (1fr 2fr);
-          height: auto;
-          width: 100%;
+
           grid: 10px ;
 
           background-color: #1c3738;
@@ -78,7 +78,7 @@ h3 {
 
 // tablet responsive
 
-@media only screen and (min-width:768px) and (max-width:991px) {
+@media only screen and (min-width: 768px) and (max-width:1200px) {
     .offer-box {
         padding: 10px 20px 30px 20px;
         display: grid;

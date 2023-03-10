@@ -82,7 +82,7 @@ footer {
 .Payment_gateway {
   display: flex;
  flex-direction: row;
- justify-content: end;
+ justify-content: flex-end;
 
  img {
   position: relative;
@@ -101,7 +101,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .navbar {
    padding: 10px 20px 10px 20px;;
     .nav-logo {
@@ -168,7 +168,7 @@ top: 15%;
   .Payment_gateway {
     display: flex;
    flex-direction: row;
-   justify-content: end;
+   justify-content: flex-end;
 
    img {
     position: relative;
@@ -192,6 +192,64 @@ top: 15%;
   }
 
 }
+
+
+@media only screen and (min-width: 768px) and (max-width:1200px) {
+
+  .footer_sections {
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: (1fr 1fr);
+    color: white;
+    gap: 30px;
+    height: auto;
+
+    .footer_heading {
+      padding: 0 0 10px 0;
+      h5 {
+
+        font-size: 20px;
+      }
+    }
+    .Newsletter_button {
+      padding: 10px;
+      margin-top: 10px;
+      background-color: rgba(24, 214, 88, 0.651);
+      width: 100%;
+
+    }
+  }
+
+  .footer_bottom_poster {
+    display: grid;
+    grid-template-columns: (1fr);
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    background-color: #1c3738;
+    color: white;
+
+    .float-right {
+      justify-content: right;
+    }
+  }
+
+  .Payment_gateway {
+    display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+
+   img {
+    position: relative;
+    top: 30%;
+    width: auto;
+    height: 15px;
+   }
+  }
+
+}
+
+
 
 
 

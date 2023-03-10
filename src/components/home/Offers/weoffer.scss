@@ -35,7 +35,7 @@
       justify-content: center;
       text-align: center;
       height: auto;
-      width: 300px;
+      width: auto;
       background-color: #1c3738;
 
       .offer_description {
@@ -106,7 +106,7 @@
             justify-content: center;
             text-align: center;
             height: auto;
-            width: 140px;
+            width: auto;
             background-color: #1c3738;
 
             .offer_description {
@@ -136,4 +136,74 @@
           }
         }
       }
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+  .we_offer {
+      display: grid;
+      grid-template-columns: (1fr);
+      padding: 20px 20px 20px 20px;
+      .bus_demo_photo {
+        background-image: url(../../../assets/posters/offer_poster.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+      }
+
+      h4 {
+        font-size: 35px;
+        font-weight: 600;
+        padding-bottom: 30px;
+        padding-top: 20px;
+      }
+
+      h5 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+      }
+
+      p {
+        padding-bottom: 5px;
+      }
+
+      .features-boxes {
+        display: grid;
+        grid-template-columns: (1fr 1fr);
+        padding: 40px 0 20px 0;
+        .features-box {
+            margin: 5px;
+          padding: 10px;
+          justify-content: center;
+          text-align: center;
+          height: auto;
+          width: auto;
+          background-color: #1c3738;
+
+          .offer_description {
+            padding-top: 20px;
+            h5 {
+                font-size: 16px;
+                color: white;
+                padding-bottom: 0;
+            }
+            p {
+                padding-top: 10px;
+                font-size: 14px;
+                color: white;
+            }
+          }
+          .fa-duotone {
+            font-size: 40px;
+          }
+          .fad::before,
+          .fa-duotone::before {
+            color: red;
+          }
+          .fad::before,
+          .fa-duotone::after {
+            color: red;
+          }
+        }
+      }
+    }
 }

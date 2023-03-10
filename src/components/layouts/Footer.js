@@ -1,11 +1,11 @@
 import React from "react";
 import AppStore from "../home/Offers/AppStore";
 import "./Layouts.scss";
-import Logo from "../../assets/logo/logo.svg";
+
 import PaymentGpay from '../../assets/payment_gateway/google-pay.png'
 import PaymentPaytm from '../../assets/payment_gateway/paytm.png'
 import PaymentPayu from '../../assets/payment_gateway/payu.png'
-import { Button } from "@material-tailwind/react";
+
 import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
@@ -25,9 +25,9 @@ function Footer() {
               We Sureve Best Clients in india
             </p>
             <br />
-            <a>Email Id: Fake@gmail.com</a>
+            <Link>Email Id: Fake@gmail.com</Link>
             <p>
-              <a href="">Contact No : +91-1234567890</a>
+              <Link to={"/"}>Contact No : +91-1234567890</Link>
             </p>
             <div className="location_map">
               <iframe
@@ -37,6 +37,7 @@ function Footer() {
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
+                title={"google map"}
               ></iframe>
             </div>
           </div>
@@ -44,26 +45,26 @@ function Footer() {
             <div className="footer_heading">
               <h5>Useful Links</h5>
             </div>
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
               Track Shipment
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
 
               Bus Tracking{" "}
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
               Our Buses
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
               Agent Login
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
             User Dashboard
-            </a>
+            </Link>
             <br />
 
             <br />
@@ -72,48 +73,48 @@ function Footer() {
             <div className="footer_heading">
               <h5>Useful Links</h5>
             </div>
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
               Track Shipment
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
 
               Bus Tracking
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
               Check Our Buses
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
               Help and Safety Guide
-            </a>
+            </Link>
             <br />
           </div>
           <div className="footer_links">
             <div className="footer_heading">
               <h5>Important Links</h5>
             </div>
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
              Cookies Policy
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
 
               privacy policy
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
              Terms And Conditions
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
             Contact Us
-            </a>
+            </Link>
             <br />
-            <a href="" className="footer_links">
+            <Link to={"/"} className="footer_links">
             Complaints
-            </a>
+            </Link>
             <br />
           </div>
           <div className="footer_newsletter text-center">
@@ -133,8 +134,9 @@ function Footer() {
               required
             />
            <button className="Newsletter_button" onClick={notify}>Submit</button>
-        <ToastContainer />
-
+     <div className="container">
+     <ToastContainer />
+     </div>
 
           </div>
         </div>
