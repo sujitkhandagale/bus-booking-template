@@ -37,14 +37,14 @@ function LoginBox() {
   <button
         type="button"
         className="border border-indigo-500 bg-indigo-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
-      >Agent Login</button>
+      ><Link to="/agent/sign-in">Agent Login</Link></button>
   </div>
 
   <div>
   <button
         type="button"
         className="border border-indigo-500 bg-indigo-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
-      >Admin Login</button>
+      ><Link to="admin/sign-in">Admin Login</Link></button>
   </div>
 </div>
         </form>
