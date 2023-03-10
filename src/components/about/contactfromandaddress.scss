@@ -2,11 +2,17 @@
     display: grid;
     grid-template-columns: (1fr 1fr);
     padding: 20px 60px 20px 60px;
-    text-align: center;
+    text-align: left;
     justify-content: center;
 
-    .from_group {
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .form_group {
         display: grid;
         grid-template-columns: (1fr);
+        margin:0 250px 0 250px;
     }
 }
