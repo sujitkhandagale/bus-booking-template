@@ -54,7 +54,7 @@ function MainFilter() {
             />
         </div>
         <div>
-        <button type="submit" className="Filter_button">Default</button>
+        <button type="submit" className="Filter_button">Search</button>
         </div>
        </div>
        {/* <small className="text-white">Ongoing Day Booking Accepts Only Before 17:00 (All Related Information shared on website or app)</small> */}

@@ -1,0 +1,59 @@
+@import "../../styles/_color.scss";
+.Bus_result_box {
+
+
+  .bux_result_details {
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.692);
+    padding: 20px;
+  }
+
+  td {
+
+    width: 800px;
+    font-size: 18px;
+    max-height: 25px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 5px;
+
+    span {
+      color: green;
+    }
+
+    .Price_tag {
+      color: green;
+      font-weight: 600;
+      font-size: 25px;
+      padding-left: 10px;
+    }
+  }
+  .bux_result_details {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    img {
+       position: relative;
+       top: 20%;
+      width: 200px;
+    }
+  }
+
+  .fa-duotone {
+    font-size: 25px;
+  }
+  .fa-duotone:before {
+    color: red;
+  }
+}
+
+.Booking_btn{
+    position: relative;
+    top: 35%;
+   height: auto;
+   width: 120px;
+   padding: 10px;
+    background-color: $base_primary_color;
+    color: $base_heading;
+}

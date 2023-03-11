@@ -1,10 +1,20 @@
 $base-color: red;
 
+.header_top_bar {
+  display: grid;
+  grid-template-columns: (1fr 1fr);
+  padding: 10px 20px 10px 20px;;
+    background-color: #1c3738;
+    color: white;
+}
+
 .navbar {
   display: grid;
   grid-template-columns: 3fr 2fr;
   padding: 10px 60px 10px 60px;
   background-color: #1c3738;
+
+
 
 
   .nav-logo {
@@ -25,15 +35,19 @@ $base-color: red;
   }
 }
 
+.stickey_navbar {
+ position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .heading-news {
   padding: 10px 20px 10px 20px;;
     background-color: #DBE9EE;
 }
 
 .tool-bar {
-  padding: 10px 20px 10px 20px;;
-    background-color: #1c3738;
-    color: white;
+
 }
 
 .mobile-menu-icon {

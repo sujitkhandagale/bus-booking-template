@@ -23,28 +23,28 @@ function WeOffer() {
           </div>
           <div className="features-boxes">
             <div className="features-box">
-              <i class="fa-duotone fa-camera-cctv"></i>
+              <i className="fa-duotone fa-camera-cctv"></i>
               <div className="offer_description">
                 <h5>CCTV</h5>
                 <p>Your Safety is Our Responsibility</p>
               </div>
             </div>
             <div className="features-box">
-            <i class="fa-duotone fa-plug-circle-plus"></i>
+            <i className="fa-duotone fa-plug-circle-plus"></i>
               <div className="offer_description">
                 <h5>Charger Point</h5>
                 <p>Mobile Charger Point Available Near Ecery Seats</p>
               </div>
             </div>
             <div className="features-box">
-            <i class="fa-duotone fa-tv"></i>
+            <i className="fa-duotone fa-tv"></i>
               <div className="offer_description">
                 <h5>Television</h5>
                 <p>Latest Movies, Songs, Bhajan on Custumer Demand</p>
               </div>
             </div>
             <div className="features-box">
-            <i class="fa-duotone fa-blanket"></i>
+            <i className="fa-duotone fa-blanket"></i>
               <div className="offer_description">
                 <h5>Blanket</h5>
                 <p>Neat And Clean Pillows & Blankets</p>

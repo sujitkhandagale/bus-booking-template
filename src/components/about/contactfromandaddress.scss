@@ -1,18 +1,105 @@
 .Contact_from_and_Address {
+  display: grid;
+  grid-template-columns: (1fr 1fr);
+  padding: 20px 60px 20px 60px;
+  text-align: left;
+  justify-content: center;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .form_group {
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: (1fr);
+    margin: 0 250px 0 250px;
+    width: 400px;
+  }
+
+  .Address {
+    position: relative;
+    top: 20%;
+    h2 {
+      font-size: 30px;
+      padding: 0 0 20px 0;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 18px;
+      padding: 3px;
+      span {
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .fake_lable {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Contact_from_and_Address {
+    display: grid;
+    grid-template-columns: (1fr);
+    padding: 20px 10px 20px 10px;
+    text-align: left;
+    justify-content: center;
+
+    .form_group {
+      margin: 10px;
+      width: auto;
+      justify-content: center;
+    }
+
+    .Address {
+      position: static;
+      //   padding: 20px 0 0 0;
+      position: static;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .Contact_from_and_Address {
     display: grid;
     grid-template-columns: (1fr 1fr);
     padding: 20px 60px 20px 60px;
     text-align: left;
     justify-content: center;
-
-    h1 {
-        font-size: 30px;
-        font-weight: 600;
-    }
-
     .form_group {
-        display: grid;
-        grid-template-columns: (1fr);
-        margin:0 250px 0 250px;
+        margin: 10px;
+        width: auto;
+        justify-content: center;
+      }
+
+    .Address {
+      padding: 20px 60px 0 60px;
+      position: static;
     }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .Contact_from_and_Address {
+    display: grid;
+    grid-template-columns: (1fr 1fr);
+    padding: 20px 60px 20px 60px;
+    text-align: left;
+    justify-content: center;
+    .form_group {
+        margin: 10px;
+        width: auto;
+        justify-content: center;
+      }
+
+    .Address {
+      padding: 20px 60px 0 60px;
+      position: static;
+    }
+  }
 }

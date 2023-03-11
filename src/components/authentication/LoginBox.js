@@ -9,7 +9,7 @@ function LoginBox() {
         {" "}
         <div className="back_to_home">
           <h3>
-            <i class="fa-duotone fa-turn-down-left"></i> &nbsp; Back To Home
+            <i className="fa-duotone fa-turn-down-left"></i> &nbsp; Back To Home
           </h3>
         </div>
       </Link>
@@ -27,9 +27,9 @@ function LoginBox() {
           </div>
           <div className="text-center text-white p-2">OR</div>
           <div className="p-2 text-center">
-         <button className="p-2 bg-red text-white"><i class="fa-brands fa-google"></i>&nbsp;Google</button>
+         <button className="p-2 bg-red text-white"><i className="fa-brands fa-google"></i>&nbsp;Google</button>
          &nbsp; &nbsp;
-         <button className="p-2 bg-blue text-white"><i class="fa-brands fa-facebook"></i>&nbsp; Facebook</button>
+         <button className="p-2 bg-blue text-white"><i className="fa-brands fa-facebook"></i>&nbsp; Facebook</button>
           </div>
 
           <div className="container m-auto grid grid-cols-2 text-center pt-2">

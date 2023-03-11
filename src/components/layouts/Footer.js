@@ -34,9 +34,9 @@ function Footer() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120637.5877164773!2d72.83346428720704!3d19.110962726350365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1678340256386!5m2!1sen!2sin"
                 width="600"
                 height="200"
-                allowfullscreen=""
+
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+
                 title={"google map"}
               ></iframe>
             </div>
@@ -119,10 +119,10 @@ function Footer() {
           </div>
           <div className="footer_newsletter text-center">
           <div className="pb-4">Find Us</div>
-        <Link><i class="fa-brands fa-facebook font-20"></i> &nbsp;</Link>
-          <Link><i class="fa-brands fa-twitter font-20"></i> &nbsp;</Link>
-         <Link><i class="fa-brands fa-youtube font-20"></i> &nbsp;</Link>
-         <Link><i class="fa-brands fa-instagram font-20"></i> &nbsp;</Link>
+        <Link><i className="fa-brands fa-facebook font-20"></i> &nbsp;</Link>
+          <Link><i className="fa-brands fa-twitter font-20"></i> &nbsp;</Link>
+         <Link><i className="fa-brands fa-youtube font-20"></i> &nbsp;</Link>
+         <Link><i className="fa-brands fa-instagram font-20"></i> &nbsp;</Link>
 
 
 
@@ -141,7 +141,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer_bottom_poster">
-          <div>All Right Reseved I OLUS BUS @ 2023</div>
+          <div>All Right Reseved I OLUS BUS @ 2023 I created and maintained by - <a href="https://sujitkhadnagale.in">Code.Sujit</a></div>
           <div className="Payment_gateway">
           We Accept Payments &nbsp;
           <div className="Payment_gateway"> <img src={PaymentGpay}  alt="" />&nbsp;
