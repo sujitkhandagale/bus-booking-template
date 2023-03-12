@@ -1,4 +1,4 @@
-
+@import "../../styles/_color.scss";
 .cookies-box {
     display: none;
     position: fixed;
@@ -15,7 +15,7 @@
         text-align: right;
         padding: 10px;
         background-color:
-        #1c3738;
+        $base_primary_color;
         color: white;
         position: relative;
         left: 50%;

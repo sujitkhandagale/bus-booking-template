@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import "./dateandtime.scss";
+
 
 function DateTime() {
 
@@ -10,7 +12,7 @@ function DateTime() {
   });
   var [date, setDate] = useState(new Date());
   return (
-    <div>
+    <div className="Date_And_Time text-left">
       <p>
         {date.toLocaleDateString()} <span> {date.toLocaleTimeString()}</span>
       </p>

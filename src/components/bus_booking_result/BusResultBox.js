@@ -22,7 +22,7 @@ function BusResultBox({
               <tr>
                 <td>Bus : OLUS Bus I Semi Premium</td>
                 <td>
-                  {" "}
+
                   <i class="fa-duotone fa-calendar-days"></i> 12/09/1256
                 </td>
               </tr>
@@ -33,7 +33,7 @@ function BusResultBox({
                 </td>
 
                 <td>
-                  <i className="fa-duotone fa-person-seat"></i> <b>(24)</b>{" "}
+                  <i className="fa-duotone fa-person-seat"></i> <b>(24)</b>
                   <span>Available</span>
                 </td>
               </tr>
@@ -54,7 +54,7 @@ function BusResultBox({
             <tbody>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-tag"></i>{" "}
+                  <i class="fa-duotone fa-tag"></i>
                   <span className="Price_tag">2599 Rs</span>
                 </td>
               </tr>
@@ -82,7 +82,7 @@ function BusResultBox({
               <tr>
                 <td>Bus : OLUS Bus I Semi Premium</td>
                 <td>
-                  {" "}
+
                   <i class="fa-duotone fa-calendar-days"></i> 12/09/1256
                 </td>
               </tr>
@@ -93,7 +93,7 @@ function BusResultBox({
                 </td>
 
                 <td>
-                  <i className="fa-duotone fa-person-seat"></i> <b>(24)</b>{" "}
+                  <i className="fa-duotone fa-person-seat"></i> <b>(24)</b>
                   <span>Available</span>
                 </td>
               </tr>
@@ -114,7 +114,7 @@ function BusResultBox({
             <tbody>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-tag"></i>{" "}
+                  <i class="fa-duotone fa-tag"></i>
                   <span className="Price_tag">2599 Rs</span>
                 </td>
               </tr>
