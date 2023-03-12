@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function LoginBox() {
   return (
-    <section>
+    <section className="auth_section">
       <Link to={"/"}>
-        {" "}
+
         <div className="back_to_home">
           <h3>
             <i className="fa-duotone fa-turn-down-left"></i> &nbsp; Back To Home

@@ -51,7 +51,7 @@ function Footer() {
             <br />
             <Link to={"/"} className="footer_links">
 
-              Bus Tracking{" "}
+              Bus Tracking
             </Link>
             <br />
             <Link to={"/"} className="footer_links">
@@ -141,7 +141,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer_bottom_poster">
-          <div>All Right Reseved I OLUS BUS @ 2023 I created and maintained by - <a href="https://sujitkhadnagale.in">Code.Sujit</a></div>
+          <div>All Right Reseved I OLUS BUS @ 2023 I created and maintained by - <Link target={"_blank"} to="https://sujitkhadnagale.in">Code.Sujit</Link></div>
           <div className="Payment_gateway">
           We Accept Payments &nbsp;
           <div className="Payment_gateway"> <img src={PaymentGpay}  alt="" />&nbsp;

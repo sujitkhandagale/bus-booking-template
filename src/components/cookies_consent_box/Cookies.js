@@ -1,5 +1,6 @@
 import React from 'react'
 import './cookies.scss'
+import { Link } from 'react-router-dom';
 
 function Cookies() {
   return (
@@ -8,8 +9,8 @@ function Cookies() {
     <br />
     <div>
 
-     <a className='cookies-link-right' href="/">Manage</a>
-     <a className='cookies-button' href="/">Accepts</a>
+     <Link className='cookies-link-right' to="/">Manage</Link>
+     <Link className='cookies-button' to="/">Accepts</Link>
     </div>
     </section>
 

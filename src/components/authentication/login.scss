@@ -1,15 +1,22 @@
-@import "../../styles//color";
+@import "../../styles/_color.scss";
+
+.auth_section {
+    display: flex;
+justify-content: center;
+    padding: 20vh 20px 20vh 20px;
+    // height: 100vh;
 .Sign_in_box {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    padding: 120px 0 120px 0;
     padding: 40px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     height: auto;
     width: 400px;
-    background-color: #1c3738;
+    background-color: $base_primary_color;
 
 
+}
 }
 
 .back_to_home {
@@ -24,8 +31,7 @@ color: white;
 }
 
 .Auth_Page {
-background-image: url('../../assets/posters/wp7040898-bus-simulator-wallpapers.jpg');
-height: 100vh;background-repeat: no-repeat;
+
 }
 
 .Login_input {

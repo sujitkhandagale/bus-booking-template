@@ -1,3 +1,4 @@
+@import "../../styles/_color.scss";
 .Postion_center {
     position: fixed;
     top: 50%;
@@ -21,7 +22,7 @@
 
 .btn {
     padding: 10px;
-    background-color: #1c3738;
+    background-color: $base_primary_color;
     color: white;
     border: 0;
 }

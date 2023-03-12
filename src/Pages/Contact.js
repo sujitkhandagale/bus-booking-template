@@ -6,7 +6,7 @@ import Header from './../components/layouts/Header';
 function Contact() {
   return (
     <div>
-      {" "}
+
       <Header />
       <div className="about_section">
         <div>
@@ -20,7 +20,7 @@ function Contact() {
         </div>
       </div>
       <ContactFomAndAddress />
-      <Footer />{" "}
+      <Footer />
     </div>
   );
 }

@@ -11,6 +11,7 @@ import AdminLogin from './Pages/authentication/AdminLogin';
 import AgentSigin from './Pages/authentication/AgentSigin';
 import Contact from './Pages/Contact';
 import BusBookingSearch from './Pages/BusBookingSearch';
+import ShipmentTracking from './Pages/ShipmentTracking';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/contact-us" element={<Contact/>}/>
         <Route path="/busbookingsearch" element={<BusBookingSearch/>}/>
+        <Route path="/shipment-tracking" element={<ShipmentTracking/>}/>
       </Routes>
 
       <Cookies/>
