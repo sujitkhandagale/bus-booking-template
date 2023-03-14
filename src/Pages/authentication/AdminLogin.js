@@ -7,7 +7,7 @@ import Footer from './../../components/layouts/Footer';
 function AdminLogin() {
   return (
     <div className="Auth_Page">
-      <h1>Admin Login Page</h1>
+
       <Header/>
     <LoginBox/>
     <Footer/>

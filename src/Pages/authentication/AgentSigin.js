@@ -7,7 +7,7 @@ import Footer from './../../components/layouts/Footer';
 function AgentSigin() {
   return (
     <div className="Auth_Page">
-      <h1>Agent Login Page</h1>
+
       <Header/>
     <LoginBox/>
     <Footer/>

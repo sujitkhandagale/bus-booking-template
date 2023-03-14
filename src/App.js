@@ -12,6 +12,7 @@ import AgentSigin from './Pages/authentication/AgentSigin';
 import Contact from './Pages/Contact';
 import BusBookingSearch from './Pages/BusBookingSearch';
 import ShipmentTracking from './Pages/ShipmentTracking';
+import Blogs from './Pages/Blogs/Blogs';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/contact-us" element={<Contact/>}/>
         <Route path="/busbookingsearch" element={<BusBookingSearch/>}/>
         <Route path="/shipment-tracking" element={<ShipmentTracking/>}/>
+        <Route path="/blogs" element={<Blogs/>}/>
       </Routes>
 
       <Cookies/>
