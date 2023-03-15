@@ -10,7 +10,6 @@
   p {
     margin-top: 4px;
   }
-
 }
 
 .navbar {
@@ -18,21 +17,20 @@
   grid-template-columns: 3fr 2fr;
   padding: 10px 60px 10px 60px;
   background-color: #fbfbfb;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
 
-
-  .logo  {
+  .logo {
     fill {
       color: pink;
     }
     svg {
-      height: 40px;
-  width: 120px;
+      height: auto;
+      width: 120px;
     }
   }
 
   ul a {
-     color: black;
+    color: black;
   }
 
   ul .active {
@@ -57,6 +55,15 @@
     text-align: right;
     justify-content: right;
 
+    ul li {
+      padding: 10px;
+      color: #f8fcfb;
+    }
+
+
+  }
+
+  .mobile_menu {
     ul li {
       padding: 10px;
       color: #f8fcfb;
@@ -88,6 +95,11 @@
 
 .mobile-menu-icon {
   display: none;
+
+  .fa-duotone {
+    color: black;
+    font-size: 30px;
+  }
 }
 
 footer {
@@ -149,62 +161,66 @@ footer {
   }
 }
 
-@media only screen and (max-width: 768px) {
-
+@media only screen and (min-width: 150px) and (max-width: 768px) {
   .header_top_bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     padding: 10px 10px 10px 10px;
 
     .break-line {
-  display: block;
+      display: block;
     }
   }
   .navbar {
     padding: 10px 20px 10px 20px;
-
   }
   .nav-menu {
     display: none;
   }
 
   .mobile_menu {
-
     position: fixed;
     top: 0;
     bottom: auto;
-width: 100%;
+    width: 100%;
     left: 0;
     height: 100vh;
     width: 30vh;
     background-color: black;
     z-index: 10;
+    transform: translate(-290px, 0px) scale(1, 1.1);
+    animation: cssAnimation_0 200ms linear forwards;
 
-   transition: opacity 1s ease-in-out 0s;
- ul {
-  float: none !important;
-  padding: 40px;
-  display: block;
-  position: relative;
-  left: 0%;
-  margin: 50px 0 -20px 0;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
-
-  li {
-    text-align: center;
-    margin: 5px;
-    width: 100%;
-    background-color: grey;
-    padding: 5px;
-    a {
-      color: white;
+    @keyframes cssAnimation_0 {
+      to {
+        transform: translate(0px, 0px) scale(1, 1.1);
+      }
     }
-  }
-  li:hover {
-    background-color: #722e2e;
-  }
- }
+    ul {
+      float: none !important;
+      padding: 40px;
+      display: block;
+      position: relative;
+      left: 0%;
+      margin: 50px 0 -20px 0;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+
+      li {
+        text-align: center;
+        margin: 5px;
+        width: 100%;
+        padding: 5px;
+        a {
+          color: white;
+        }
+      }
+      li:hover {
+        background-color: #722e2e;
+      }
+    }
   }
 
   .mobile-menu-icon {

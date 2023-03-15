@@ -15,6 +15,9 @@ function Header() {
   const handleToggle = () => {
     setActive(!isActive);
   };
+  const handleToggleFont = () => {
+    setActive(!isActive);
+  };
   return (
     <div>
       <div className="header_top_bar">
@@ -54,9 +57,11 @@ function Header() {
           </Link>
         </div>
         <div className="mobile-menu-icon">
-          <button onClick={handleToggle}>
-          <FontAwesomeIcon icon={faBars} />
+        <button onClick={handleToggle}>
+          <i className={`${isActive ? "fa-duotone fa-bars" : "fa-duotone fa-x"}`}></i>
           </button>
+
+
 
         </div>
         <div className={`${isActive ? "nav-menu" : "mobile_menu"}`}>
