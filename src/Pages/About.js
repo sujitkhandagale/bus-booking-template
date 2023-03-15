@@ -7,6 +7,8 @@ import ContactFomAndAddress from './../components/about/ContactFomAndAddress';
 function About() {
   return (
     <div>
+      <Header/>
+      <Footer/>
 
     </div>
   )

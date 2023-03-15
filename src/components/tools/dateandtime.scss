@@ -1,6 +1,8 @@
+@import "../../styles/color";
 .Date_And_Time {
   p {
-    color: #dbe9ee;
+    color: $base_heading;
     font-size: 12px;
+
   }
 }

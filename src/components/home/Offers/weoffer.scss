@@ -32,27 +32,27 @@
     grid-template-columns: (1fr 1fr 1fr 1fr);
     padding: 40px 0 20px 0;
     .features-box {
-        margin: 5px;
+      margin: 5px;
       padding: 20px;
       justify-content: center;
       text-align: center;
       height: auto;
       width: auto;
       background-color: $base_primary_color;
-
       .offer_description {
         padding-top: 20px;
         h5 {
-            font-size: 20px;
-            color: white;
-            padding-bottom: 0 ;
+          font-size: 20px;
+          color: $base_dark_text;
+          padding-bottom: 0;
         }
         p {
-            padding-top: 10px;
-            font-size: 16px;
-            color: white;
+          padding-top: 10px;
+          font-size: 16px;
+          color: $base_dark_text;
         }
       }
+
       .fa-duotone {
         font-size: 60px;
       }
@@ -66,146 +66,150 @@
       }
     }
   }
+
+  .features-box:hover {
+    background-color: #dfdfdf;
+  }
 }
 
 // tablet responsive
 
-@media only screen and (max-width:768px) {
-    .we_offer {
-        display: grid;
-        grid-template-columns: (1fr);
-        padding: 20px 20px 20px 20px;
-        .bus_demo_photo {
-          background-image: url(../../../assets/posters/offer_poster.jpg);
-          height: 600px;
-          background-repeat: no-repeat;
-        }
-
-        h4 {
-          font-size: 35px;
-          font-weight: 600;
-          padding-bottom: 30px;
-          padding-top: 20px;
-        }
-
-        h5 {
-          font-size: 20px;
-          font-weight: 600;
-          padding-bottom: 20px;
-        }
-
-        p {
-          padding-bottom: 5px;
-        }
-
-        .features-boxes {
-          display: grid;
-          grid-template-columns: (1fr 1fr);
-          padding: 40px 0 20px 0;
-          .features-box {
-              margin: 5px;
-            padding: 10px;
-            justify-content: center;
-            text-align: center;
-            height: auto;
-            width: auto;
-            background-color: $base_primary_color;
-
-            .offer_description {
-              padding-top: 20px;
-              h5 {
-                  font-size: 16px;
-                  color: white;
-                  padding-bottom: 0;
-              }
-              p {
-                  padding-top: 10px;
-                  font-size: 14px;
-                  color: white;
-              }
-            }
-            .fa-duotone {
-              font-size: 40px;
-            }
-            .fad::before,
-            .fa-duotone::before {
-              color: red;
-            }
-            .fad::before,
-            .fa-duotone::after {
-              color: red;
-            }
-          }
-        }
-      }
-}
-
-@media only screen and (min-width:769px) and (max-width:991px) {
+@media only screen and (max-width: 768px) {
   .we_offer {
+    display: grid;
+    grid-template-columns: (1fr);
+    padding: 20px 20px 20px 20px;
+    .bus_demo_photo {
+      background-image: url(../../../assets/posters/offer_poster.jpg);
+      height: 600px;
+      background-repeat: no-repeat;
+    }
+
+    h4 {
+      font-size: 35px;
+      font-weight: 600;
+      padding-bottom: 30px;
+      padding-top: 20px;
+    }
+
+    h5 {
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+
+    p {
+      padding-bottom: 5px;
+    }
+
+    .features-boxes {
       display: grid;
-      grid-template-columns: (1fr);
-      padding: 20px 20px 20px 20px;
-      .bus_demo_photo {
-        background-image: url(../../../assets/posters/offer_poster.jpg);
-        height: 600px;
-        background-repeat: no-repeat;
-      }
+      grid-template-columns: (1fr 1fr);
+      padding: 40px 0 20px 0;
+      .features-box {
+        margin: 5px;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        width: auto;
+        background-color: $base_primary_color;
 
-      h4 {
-        font-size: 35px;
-        font-weight: 600;
-        padding-bottom: 30px;
-        padding-top: 20px;
-      }
-
-      h5 {
-        font-size: 20px;
-        font-weight: 600;
-        padding-bottom: 20px;
-      }
-
-      p {
-        padding-bottom: 5px;
-      }
-
-      .features-boxes {
-        display: grid;
-        grid-template-columns: (1fr 1fr);
-        padding: 40px 0 20px 0;
-        .features-box {
-            margin: 5px;
-          padding: 10px;
-          justify-content: center;
-          text-align: center;
-          height: auto;
-          width: auto;
-          background-color: $base_primary_color;
-
-          .offer_description {
-            padding-top: 20px;
-            h5 {
-                font-size: 16px;
-                color: white;
-                padding-bottom: 0;
-            }
-            p {
-                padding-top: 10px;
-                font-size: 14px;
-                color: white;
-            }
+        .offer_description {
+          padding-top: 20px;
+          h5 {
+            font-size: 16px;
+            color: $base_dark_text;
+            padding-bottom: 0;
           }
-          .fa-duotone {
-            font-size: 40px;
+          p {
+            padding-top: 10px;
+            font-size: 14px;
+            color: $base_dark_text;
           }
-          .fad::before,
-          .fa-duotone::before {
-            color: red;
-          }
-          .fad::before,
-          .fa-duotone::after {
-            color: red;
-          }
+        }
+        .fa-duotone {
+          font-size: 40px;
+        }
+        .fad::before,
+        .fa-duotone::before {
+          color: red;
+        }
+        .fad::before,
+        .fa-duotone::after {
+          color: red;
         }
       }
     }
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .we_offer {
+    display: grid;
+    grid-template-columns: (1fr);
+    padding: 20px 20px 20px 20px;
+    .bus_demo_photo {
+      background-image: url(../../../assets/posters/offer_poster.jpg);
+      height: 600px;
+      background-repeat: no-repeat;
+    }
+
+    h4 {
+      font-size: 35px;
+      font-weight: 600;
+      padding-bottom: 30px;
+      padding-top: 20px;
+    }
+
+    h5 {
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+
+    p {
+      padding-bottom: 5px;
+    }
+
+    .features-boxes {
+      display: grid;
+      grid-template-columns: (1fr 1fr);
+      padding: 40px 0 20px 0;
+      .features-box {
+        margin: 5px;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        width: auto;
+        background-color: $base_primary_color;
+
+        .offer_description {
+          padding-top: 20px;
+          h5 {
+            font-size: 16px;
+            color: $base_dark_text;
+            padding-bottom: 0;
+          }
+          p {
+            padding-top: 10px;
+            font-size: 14px;
+            color: $base_dark_text;
+          }
+        }
+        .fa-duotone {
+          font-size: 40px;
+        }
+        .fad::before,
+        .fa-duotone::before {
+          color: red;
+        }
+        .fad::before,
+        .fa-duotone::after {
+          color: red;
+        }
+      }
+    }
+  }
 }

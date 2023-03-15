@@ -11,9 +11,10 @@ background-color: $base_primary_color;
 .Filter_button {
     margin: 27px 0 0 0;
     padding: 15px;
-    background-color: #77aca2;
-    color: white;
+    background-color: #d62c2c;
+    color: $base_light_text;
     width: 100%;
+
 
 }
 
@@ -24,13 +25,23 @@ background-color: $base_primary_color;
         color: black;
 }
 
+.Filter_input:focus {
+box-shadow: $base_heading;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+        color: black;
+        border: 0;
+        outline: none;
+}
+
 .Filter_input_Date {
     padding: 9px;
     width: 100%;
 }
 
 label {
-    color: white;
+    color: $base_dark_text;
     font-size: 15px;
   text-align: center;
 
@@ -56,7 +67,7 @@ label {
         margin: 27px 0 0 0;
         padding: 15px;
         background-color: #77aca2;
-        color: white;
+        color: $base_dark_text;
         width: 100%;
 
     }
@@ -72,7 +83,7 @@ label {
     }
 
     label {
-        color: white;
+        color: $base_dark_text;
         font-size: 15px;
       text-align: center;
 
