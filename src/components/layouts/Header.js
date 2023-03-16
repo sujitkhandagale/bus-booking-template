@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import "./Layouts.scss";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import DateTime from "./../tools/DateTime";
 import SvgLogo from "./Logo";
 import "./mobile_menu.scss"
@@ -15,9 +13,7 @@ function Header() {
   const handleToggle = () => {
     setActive(!isActive);
   };
-  const handleToggleFont = () => {
-    setActive(!isActive);
-  };
+
   return (
     <div>
       <div className="header_top_bar">

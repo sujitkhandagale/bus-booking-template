@@ -1,9 +1,9 @@
-import React from "react";
-import "./login.scss";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom';
 
-function LoginBox() {
+function RegisterBox() {
   return (
+    <div>
     <section className="auth_section">
       <Link to={"/"}>
         <div className="back_to_home">
@@ -17,7 +17,15 @@ function LoginBox() {
           <lable className="Login_box_lable">Email ID</lable>
           <br />
           <input className="Login_input" type="email" /> <br />
+          <lable className="Login_box_lable">Mobile No</lable>
+          <br />
+          <input className="Login_input" type="text" /> <br />
+
           <lable className="Login_box_lable">Password</lable>
+          <br />
+          <input className="Login_input" type="text" /> <br />
+
+          <lable className="Login_box_lable">Password Re-Enter</lable>
           <br />
           <input className="Login_input" type="email" />
           <button className="auth_btn mt-2">Sign-in</button>
@@ -34,29 +42,12 @@ function LoginBox() {
               <i className="fa-brands fa-facebook"></i>&nbsp; Facebook
             </button>
           </div>
-          <div className="container m-auto grid grid-cols-2 text-center pt-2">
-            <div>
-              <button
-                type="button"
-                className="border border-indigo-500 bg-indigo-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
-              >
-                <Link to="/agent/sign-in">Agent Login</Link>
-              </button>
-            </div>
 
-            <div>
-              <button
-                type="button"
-                className="border border-indigo-500 bg-indigo-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
-              >
-                <Link to="/admin/sign-in">Admin Login</Link>
-              </button>
-            </div>
-          </div>
         </form>
       </div>
     </section>
-  );
+    </div>
+  )
 }
 
-export default LoginBox;
+export default RegisterBox

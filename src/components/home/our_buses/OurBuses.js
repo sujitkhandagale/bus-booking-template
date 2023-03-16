@@ -1,8 +1,13 @@
 import React from 'react'
 
+import PhotoBox from '../lightbox/PhotoBox'
+
+
 function OurBuses() {
   return (
-    <div>OurBuses</div>
+    <div className='bus_photos'>
+      <PhotoBox/>
+    </div>
   )
 }
 

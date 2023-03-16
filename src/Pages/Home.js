@@ -16,6 +16,7 @@ function Home() {
       <Offer />
       <WeOffer/>
       <OurBuses/>
+
       <Footer />
     </div>
   );
