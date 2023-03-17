@@ -21,6 +21,11 @@ function MenuList() {
               </Link>
             </li>
             <li>
+              <Link className="" to={"/blogs"}>
+                Blog
+              </Link>
+            </li>
+            <li>
               <Link className="" to={"/about"}>
                 About
               </Link>

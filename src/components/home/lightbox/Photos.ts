@@ -5,11 +5,11 @@ const unsplashLink = (id: string, width: number, height: number) =>
 
 const unsplashPhotos = [
     { id: "6mcVaoGNz1w", width: 1080, height: 780 },
-    { id: "Dhmn6ete6g8", width: 1080, height: 1620 },
-    { id: "RkBTPqPEGDo", width: 1080, height: 720 },
-    { id: "Yizrl9N_eDA", width: 1080, height: 721 },
-    { id: "KG3TyFi0iTU", width: 1080, height: 1620 },
-    { id: "Jztmx9yqjBw", width: 1080, height: 607 },
+    { id: "T5jzpRTVF1U", width: 1171, height: 781 },
+    { id: "LR5O79shvro", width: 1080, height: 720 },
+    { id: "93G0Daoyj0U", width: 1080, height: 721 },
+    { id: "EwoyDPlT_H0", width: 687, height: 1031 },
+    { id: "Th-9zLM-190", width: 687, height: 1031 },
 
 ];
 

@@ -18,12 +18,12 @@
 }
 
 .back_to_home {
-  position: absolute;
-  bottom: 2%;
-  left: 2%;
+  text-align: left;
+  float: left;
   h3 {
-    font-size: 20px !important;
-    color: rgb(3, 3, 3);
+
+    font-size: 16px !important;
+    color: rgb(0, 0, 0);
     padding: 5px;
   }
 }

@@ -1,0 +1,38 @@
+@import "../../styles/color.scss";
+.testomonial {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding-bottom: 20px;
+
+  .testominal-box {
+    height: 250px;
+    text-align: center;
+    place-items: center;
+    padding: 20px 60px 20px 60px;
+    .img {
+      img {
+        height: auto;
+        width: 120px;
+        border-radius: 100px;
+        padding: 10px;
+      }
+    }
+    .des {
+        h5 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        p{
+          font-size: 12px;
+          width: 120px;
+          text-decoration: wavy;
+        }
+
+      }
+  }
+  .testominal-box:hover{
+    background-color: #dfdfdf;
+  }
+}

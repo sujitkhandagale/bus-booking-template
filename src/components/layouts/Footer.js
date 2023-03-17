@@ -126,7 +126,7 @@ function Footer() {
 
 
 
-          <label className=" Newsletter_heading block mb-2">News Letter</label>
+          <label className=" Newsletter_heading block mb-2 text-white">News Letter</label>
             <input
               type="email"
               className="Filter_input"

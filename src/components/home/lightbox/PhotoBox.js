@@ -15,31 +15,36 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import photos from "./Photos.ts";
 
 const slides = photos.map(({ src, width, height, images }) => ({
-    src,
-    width,
-    height,
-    srcSet: images.map((image) => ({
-        src: image.src,
-        width: image.width,
-        height: image.height,
-    })),
+  src,
+  width,
+  height,
+  srcSet: images.map((image) => ({
+    src: image.src,
+    width: image.width,
+    height: image.height,
+  })),
 }));
 
 export default function PhotoBox() {
-    const [index, setIndex] = useState(-1);
+  const [index, setIndex] = useState(-1);
 
-    return (
-        <>
-            <PhotoAlbum photos={photos} layout="rows" targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+  return (
+    <>
+      <PhotoAlbum
+        photos={photos}
+        layout="rows"
+        targetRowHeight={150}
+        onClick={({ index }) => setIndex(index)}
+      />
 
-            <Lightbox
-                slides={slides}
-                open={index >= 0}
-                index={index}
-                close={() => setIndex(-1)}
-                // enable optional lightbox plugins
-                plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
-            />
-        </>
-    );
+      <Lightbox
+        slides={slides}
+        open={index >= 0}
+        index={index}
+        close={() => setIndex(-1)}
+        // enable optional lightbox plugins
+        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+      />
+    </>
+  );
 }
