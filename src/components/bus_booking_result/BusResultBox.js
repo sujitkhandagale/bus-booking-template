@@ -23,12 +23,12 @@ function BusResultBox({
                 <td>Bus : OLUS Bus I Semi Premium</td>
                 <td>
 
-                  <i class="fa-duotone fa-calendar-days"></i> 12/09/1256
+                  <i className="fa-duotone fa-calendar-days"></i> 12/09/1256
                 </td>
               </tr>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-location-dot"></i> Latur - Mumbai
+                  <i className="fa-duotone fa-location-dot"></i> Latur - Mumbai
                   (12/02/2001 - 12/02/2001)
                 </td>
 
@@ -39,10 +39,10 @@ function BusResultBox({
               </tr>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-timer"></i> 20:00 To 07:00
+                  <i className="fa-duotone fa-timer"></i> 20:00 To 07:00
                 </td>
                 <td>
-                  <i class="fa-duotone fa-bus"></i> (NON A/C Semi Sleeper (2+2))
+                  <i className="fa-duotone fa-bus"></i> (NON A/C Semi Sleeper (2+2))
                   Type
                 </td>
               </tr>
@@ -54,13 +54,13 @@ function BusResultBox({
             <tbody>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-tag"></i>
+                  <i className="fa-duotone fa-tag"></i>
                   <span className="Price_tag">2599 Rs</span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-clock"></i> 10 Hours
+                  <i className="fa-duotone fa-clock"></i> 10 Hours
                 </td>
               </tr>
             </tbody>
@@ -83,12 +83,12 @@ function BusResultBox({
                 <td>Bus : OLUS Bus I Semi Premium</td>
                 <td>
 
-                  <i class="fa-duotone fa-calendar-days"></i> 12/09/1256
+                  <i className="fa-duotone fa-calendar-days"></i> 12/09/1256
                 </td>
               </tr>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-location-dot"></i> Latur - Mumbai
+                  <i className="fa-duotone fa-location-dot"></i> Latur - Mumbai
                   (12/02/2001 - 12/02/2001)
                 </td>
 
@@ -99,10 +99,10 @@ function BusResultBox({
               </tr>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-timer"></i> 20:00 To 07:00
+                  <i className="fa-duotone fa-timer"></i> 20:00 To 07:00
                 </td>
                 <td>
-                  <i class="fa-duotone fa-bus"></i> (NON A/C Semi Sleeper (2+2))
+                  <i className="fa-duotone fa-bus"></i> (NON A/C Semi Sleeper (2+2))
                   Type
                 </td>
               </tr>
@@ -114,13 +114,13 @@ function BusResultBox({
             <tbody>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-tag"></i>
+                  <i className="fa-duotone fa-tag"></i>
                   <span className="Price_tag">2599 Rs</span>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <i class="fa-duotone fa-clock"></i> 10 Hours
+                  <i className="fa-duotone fa-clock"></i> 10 Hours
                 </td>
               </tr>
             </tbody>

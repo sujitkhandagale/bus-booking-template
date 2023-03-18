@@ -19,7 +19,6 @@ function Header() {
       <div className="header_top_bar">
         <DateTime></DateTime>
         <div className="tool-bar text-right">
-
           <Link to="/shipment-tracking">Track Shipment</Link>{" "}
           <Link to="/">I Track Booking</Link>
           <br className="break-line" />

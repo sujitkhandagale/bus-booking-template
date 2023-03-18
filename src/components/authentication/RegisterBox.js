@@ -5,13 +5,7 @@ function RegisterBox() {
   return (
     <div>
     <section className="auth_section">
-      <Link to={"/"}>
-        <div className="back_to_home">
-          <h3>
-            <i className="fa-duotone fa-turn-down-left"></i> &nbsp; Back To Home
-          </h3>
-        </div>
-      </Link>
+
       <div className="Sign_in_box">
         <form action="">
           <lable className="Login_box_lable">Email ID</lable>

@@ -11,6 +11,7 @@
         padding: 10px 0 10px 0;
     }
     p {
+        color: $base_dark_text;
         font-size: 15px;
         text-align: center;
         span {
@@ -23,7 +24,7 @@
 .btn {
     padding: 10px;
     background-color: $base_primary_color;
-    color: white;
+
     border: 0;
 }
 
@@ -40,6 +41,7 @@
             padding: 10px 0 10px 0;
         }
         p {
+
             font-size: 15px;
             text-align: center;
             span {

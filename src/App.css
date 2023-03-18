@@ -8,10 +8,21 @@
 }
 
 .fa-duotone {
-
 }
 .fa-duotone:before {
   color: red;
+}
+
+::-webkit-scrollbar {
+  background-color: #fff;
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #df1a1a;
+  border-radius: 4px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

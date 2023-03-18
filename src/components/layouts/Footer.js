@@ -62,10 +62,7 @@ function Footer() {
               Agent Login
             </Link>
             <br />
-            <Link to={"/"} className="footer_links">
-            User Dashboard
-            </Link>
-            <br />
+
 
             <br />
           </div>

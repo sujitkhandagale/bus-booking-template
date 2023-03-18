@@ -1,5 +1,39 @@
 @import "../../styles/_color.scss";
 
+.dropbtn {
+  color: black;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+place-items: center;
+  justify-content: center;
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .bus_photos {
   padding: 10px 60px 10px 60px;
 }
@@ -16,10 +50,9 @@
     margin-top: 4px;
   }
 }
-
 .navbar {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 4fr;
   padding: 10px 60px 10px 60px;
   background-color: #fbfbfb;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
@@ -165,6 +198,42 @@ footer {
 }
 
 @media only screen and (min-width: 150px) and (max-width: 768px) {
+  .navbar .mobile_menu ul li {
+    padding: 5px;
+  }
+
+  .dropbtn {
+    color: rgb(255, 255, 255);
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    text-align: center;
+    display: none;
+    position: static;
+    background-color: #181717;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
   .header_top_bar {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -191,17 +260,21 @@ footer {
     width: 40vh;
     background-color: black;
     z-index: 10;
-    transform: translate(-290px, 0px) scale(1, 1.1);
-    animation: cssAnimation_0 200ms linear forwards;
-
+    transform: translate(-290px, 0px);
+    animation: cssAnimation_0 1000ms linear forwards;
     @keyframes cssAnimation_0 {
       to {
-        transform: translate(0px, 0px) scale(1, 1.1);
+        transform: translate(0px, 0px);
+      }
+    }
+    @keyframes cssAnimation_0 {
+      to {
+        transform: translate(0px, 0px);
       }
     }
     ul {
       float: none !important;
-      padding: 40px;
+      // padding: 40px;
       display: block;
       position: relative;
       left: 0%;
@@ -270,7 +343,7 @@ footer {
     padding: 20px;
     font-size: 12px;
     background-color: $base_primary_color;
-place-items: center;
+    place-items: center;
 
     .float-right {
       justify-content: right;
@@ -335,7 +408,6 @@ place-items: center;
     padding: 20px;
     font-size: 12px;
     background-color: $base_primary_color;
-
 
     .float-right {
       justify-content: right;

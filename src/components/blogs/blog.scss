@@ -1,4 +1,9 @@
 @import "../../styles/color";
+
+.single_blog {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
 .blog_page_m {
   .blog_navigation {
     text-align: center;
@@ -26,26 +31,28 @@
 
     .blog_boxes {
       display: grid;
-      grid-template-columns: (1fr 1fr 1fr);
+      grid-template-columns: (1fr 1fr);
     }
   }
 
   .blogs_box {
     display: flex;
     flex-direction: row;
+    justify-items: center;
     gap: 10px;
     padding: 10px;
     box-shadow: $base_hover_color;
     width: auto;
     margin: 10px;
     img {
-      height: 120px;
+      height: auto;
       width: 300px;
       image-rendering:crisp-edges;
       object-fit: fill;
     }
 
     .blog_description {
+      padding: 10px;
       h2 {
         font-size: 20px;
         font-weight: 600;
@@ -62,14 +69,14 @@
 
   .blogs_box:hover {
     background-color: $box_hover;
-    color: ($base_heading);
+    color: ($base_dark_text);
 
     button {
 
         box-shadow: $base_hover_color;
     }
     a {
-        color: $base_heading;
+        color: $base_dark_text;
       }
   }
 
@@ -138,7 +145,7 @@
       flex-direction: row;
       gap: 0;
       width: auto;
-      margin: 2px;
+
     }
 
     .blog_sidebar {
@@ -197,7 +204,7 @@
         flex-direction: row;
         gap: 0;
         width: auto;
-        margin: 2px;
+
       }
 
       .blog_sidebar {
@@ -230,3 +237,4 @@
       }
     }
   }
+

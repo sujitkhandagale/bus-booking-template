@@ -13,6 +13,7 @@ import BusBookingSearch from './Pages/BusBookingSearch';
 import ShipmentTracking from './Pages/ShipmentTracking';
 import Blogs from './Pages/Blogs/Blogs';
 import Register from './Pages/authentication/Register';
+import SinglePage from './Pages/Blogs/SinglePage';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/busbookingsearch" element={<BusBookingSearch/>}/>
         <Route path="/shipment-tracking" element={<ShipmentTracking/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
+        {/* <Route path="/blogs/single-page"/> */}
       </Routes>
 
 
