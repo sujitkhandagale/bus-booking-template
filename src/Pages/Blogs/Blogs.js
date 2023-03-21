@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Footer from "../../components/layouts/Footer";
 
 import BlogBox from "./../../components/blogs/BlogBox";
@@ -21,24 +21,19 @@ function Blogs() {
       desc: "hi",
     },
   ]);
-
-
-
   return (
     <section className="blog_page_m">
       <Header />
       <div className="blog_page">
         <div className="blog_boxes">
-          {
-            blogDetails.map((blogDetails) => (
-              <BlogBox
+          {blogDetails.map((blogDetails) => (
+            <BlogBox
               Blog_image={blogDetails.src}
               Blog_name={"Women's Safety"}
-
             />
-            ))
-          }
+          ))}
         </div>
+        <></>
         <div>
           <BlogSidebar />
         </div>

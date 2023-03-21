@@ -41,7 +41,7 @@ grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 10px;
     padding: 10px;
-    box-shadow: $base_hover_color;
+    // box-shadow: $base_hover_color;
     width: auto;
     margin: 10px;
     img {
@@ -81,7 +81,7 @@ grid-template-columns: 1fr 1fr;
   }
 
   .blog_sidebar {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 10px;
     margin: 10px;
 
@@ -204,7 +204,6 @@ grid-template-columns: 1fr 1fr;
         flex-direction: row;
         gap: 0;
         width: auto;
-
       }
 
       .blog_sidebar {
