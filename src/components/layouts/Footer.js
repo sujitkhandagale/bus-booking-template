@@ -45,7 +45,7 @@ function Footer() {
             <div className="footer_heading">
               <h5>Useful Links</h5>
             </div>
-            <Link to={"/"} className="footer_links">
+            <Link to={"/shipment-tracking"} className="footer_links">
               Track Shipment
             </Link>
             <br />
@@ -79,7 +79,7 @@ function Footer() {
               Bus Tracking
             </Link>
             <br />
-            <Link to={"/"} className="footer_links">
+            <Link to={"/busbookingsearch"} className="footer_links">
               Check Our Buses
             </Link>
             <br />
@@ -138,7 +138,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer_bottom_poster">
-          <div>All Right Reseved I OLUS BUS @ 2023 I created and maintained by - <Link target={"_blank"} to="https://sujitkhadnagale.in">Code.Sujit</Link></div>
+          <div>All Right Reseved I OLUS BUS @ 2023 I created and maintained by - <Link target={"_blank"} to="https://sujitkhandagale.in/">Code.Sujit</Link></div>
           <div className="Payment_gateway">
           We Accept Payments &nbsp;
           <div className="Payment_gateway"> <img src={PaymentGpay}  alt="" />&nbsp;

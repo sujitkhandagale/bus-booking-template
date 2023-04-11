@@ -13,7 +13,6 @@ import BusBookingSearch from './Pages/BusBookingSearch';
 import ShipmentTracking from './Pages/ShipmentTracking';
 import Blogs from './Pages/Blogs/Blogs';
 import Register from './Pages/authentication/Register';
-import SinglePage from './Pages/Blogs/SinglePage';
 
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
           <Route path="/admin/sign-in" element={<AdminLogin/>} />
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/register" element={<Register/>} />
+        <Route path="/sign-up" element={<Register/>} />
         <Route path="/sign-in" element={<Login/>} />
 
         <Route path="*" element={<NotFound />} />

@@ -9,37 +9,12 @@
     display: grid;
     place-items: center;
     place-content: center;
-    padding: 120px 0 120px 0;
-    padding: 40px;
+    // padding: 120px 0 120px 0;
+    // padding: 40px;
     height: auto;
-    width: 400px;
-    background-color: $dark_color_box;
+    // width: 400px;
+    // background-color: $dark_color_box;
   }
-}
-
-.back_to_home {
-  text-align: left;
-  float: left;
-  h3 {
-
-    font-size: 16px !important;
-    color: rgb(0, 0, 0);
-    padding: 5px;
-  }
-}
-
-.Auth_Page {
-}
-
-.Login_input {
-  width: 100%;
-  height: 40px;
-  margin: 10px 0 10px 0;
-}
-
-.Login_box_lable {
-  margin: 10px 0 10px 0;
-  color: white;
 }
 
 .auth_btn {

@@ -40,7 +40,7 @@ function MenuList() {
         <li>
           <span>
             <Link to="/sign-in">Login</Link>/
-            <Link to="/register">Register</Link>
+            <Link to="/sign-up">Register</Link>
           </span>
         </li>
       </ul>
