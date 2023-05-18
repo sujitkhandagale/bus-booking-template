@@ -13,6 +13,8 @@ import BusBookingSearch from './Pages/BusBookingSearch';
 import ShipmentTracking from './Pages/ShipmentTracking';
 import Blogs from './Pages/Blogs/Blogs';
 import Register from './Pages/authentication/Register';
+import './assets/font-awsome-v6/css/fontawesome.min.css';
+import "./assets/font-awsome-v6/css/all.css";
 
 
 function App() {
